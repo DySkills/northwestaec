@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://northwestaec.com/sitemap.xml
