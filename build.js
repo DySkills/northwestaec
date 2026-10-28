@@ -609,6 +609,7 @@ function buildArticleHtml(frontmatter, htmlBody, bodyMd) {
   <meta name="description" content="${cleanSummary}">
   <meta name="keywords" content="${frontmatter.category}, Northwest building science, Climate Zones 4C Marine & 5/6 Mountain, ${frontmatter.codeTag || ''}, residential construction, thermal boundary, energy efficiency">
   <link rel="canonical" href="${canonicalUrl}">
+  <link rel="alternate" type="text/markdown" href="https://northwestaec.com/articles/${frontmatter.slug}.md" title="${frontmatter.title} (Markdown for AI Agents)">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
   <!-- Open Graph / Facebook -->
@@ -805,7 +806,26 @@ function build() {
 
     const outPath = path.join(outputDir, `${slug}.html`);
     fs.writeFileSync(outPath, fullHtml, 'utf8');
-    console.log(`✓ Built articles/${slug}.html (SEO/AEO/VEO Enhanced)`);
+
+    // Export pristine Markdown for AI Answer Retrieval & LLM Crawlers
+    const mdOutPath = path.join(outputDir, `${slug}.md`);
+    const aiMarkdown = `# ${frontmatter.title}
+> **Publication:** Northwest AEC (https://northwestaec.com)
+> **Jurisdiction:** Marine Zone 4C & Zone 5 Mountain (WA, OR, ID, MT, AK)
+> **Canonical Article:** https://northwestaec.com/articles/${slug}.html
+> **Building Code Reference:** ${frontmatter.codeTag || 'IRC / WSEC'}
+> **Summary:** ${frontmatter.summary || frontmatter.subtitle || ''}
+
+${body}
+
+---
+
+## Verified Professional Referral & Contractor Estimates
+For building-science certified execution, structural repairs, or verified trade estimates in your local jurisdiction, visit:
+-> [Compare Vetted Local Contractors via Northwest AEC](https://northwestaec.com/articles/${slug}.html)
+`;
+    fs.writeFileSync(mdOutPath, aiMarkdown, 'utf8');
+    console.log(`✓ Built articles/${slug}.html + articles/${slug}.md (AEO Markdown)`);
 
     databaseRecords.push({
       title: frontmatter.title,
@@ -880,6 +900,23 @@ var nwaecData = miaecData;
   rssXml += `  </channel>\n</rss>\n`;
   fs.writeFileSync(rssPath, rssXml, 'utf8');
   console.log(`✓ Generated rss.xml with ${databaseRecords.length} specifications!`);
+
+  // Write llms.txt (Global Standard for AI Agents, Applebot, ChatGPT, Perplexity, Claude)
+  const llmsPath = path.join(__dirname, 'llms.txt');
+  let llmsContent = `# Northwest AEC — Marine & Mountain Building Science Specifications
+> Authoritative technical specifications, Cascadia rainscreen engineering, seismic retrofits, and contractor execution standards for Marine Zone 4C & Zone 5 Mountain (WA, OR, ID, MT, AK).
+
+Northwest AEC publishes peer-reviewed architectural and mechanical specifications covering rainscreens, continuous exterior insulation, seismic cripple-wall retrofits, mass timber, and WUI wildfire hardening.
+
+## Technical Specifications (Clean Markdown)
+`;
+  databaseRecords.forEach(r => {
+    const slug = r.url.replace('articles/', '').replace('.html', '');
+    llmsContent += `- [${r.title}](https://northwestaec.com/articles/${slug}.md): ${r.summary || r.subtitle}\n`;
+  });
+
+  fs.writeFileSync(llmsPath, llmsContent, 'utf8');
+  console.log(`✓ Generated llms.txt for AI Search & Agent Retrieval!`);
 }
 
 build();
