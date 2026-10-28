@@ -79,11 +79,11 @@ Under Section R408.3 of the International Residential Code, builders and retrofi
 +--------------------------------------------------------------------------+
 ```
 
-First, the earthen floor must be graded flat and covered with a non-woven 8-ounce geotextile cushion fabric to protect against sharp rocks. On top of this cushion, contractors install a minimum 20-mil multi-layer virgin polyolefin vapor retarder meeting ASTM E1745 Class A puncture resistance. All membrane seams are overlapped by 12 inches and permanently bonded using double-sided butyl tape, with the barrier running up concrete stem walls to within three inches of the wooden sill plate.
+First, the earthen floor must be graded flat and covered with a non-woven 8-ounce geotextile cushion fabric to protect against sharp rocks, followed by a 20-mil virgin polyolefin vapor retarder meeting ASTM E1745 Class A puncture resistance. Perimeter foundation walls are insulated with continuous 2-inch EPS rigid foam (R-10), maintaining a mandatory 3-inch bare concrete inspection stripe below the mudsill for pest detection.
 
-Second, the perimeter concrete foundation walls must be insulated with continuous 2-inch expanded polystyrene (EPS) or foil-faced polyisocyanurate rigid foam board, providing a minimum thermal resistance of R-10. Leaving a continuous 3-inch bare concrete inspection stripe below the mudsill is mandatory to allow pest control operators to inspect for subterranean termite shelter tubes. The rim joist cavities above the foundation must be air-sealed and insulated using two-component closed-cell expanding polyurethane foam.
+The unvented crawlspace is completed with two-component closed-cell spray foam at the rim joists, dedicated commercial low-temperature dehumidification, and perforated sub-membrane radon evacuation piping.
 
-Third, the space must be mechanically dried using a dedicated, commercial-grade low-temperature dehumidifier (such as a Santa Fe or Aprilaire unit) equipped with a digital humidistat and gravity condensate drain line. Standard residential basement dehumidifiers fail because they cannot operate efficiently at 55°F crawlspace ambient temperatures. Finally, in EPA Radon Zone 1 and Zone 2 counties, a continuous perforated 4-inch PVC collector pipe must be routed beneath the center of the vapor barrier, capped with a T-fitting, and stubbed through the floor for radon fan connection.
+&rarr; **[Field Guide: Step-by-Step Pacific Northwest Crawlspace Encapsulation & Radon Sealing Protocol](crawlspace-encapsulation-steps.html)**
 
 &rarr; **[Deep Dive Report: Hillside French Drains and Retaining Wall Hydrostatic Pressure Relief](hillside-french-drain-hydrostatic-retaining-walls.html)**
 

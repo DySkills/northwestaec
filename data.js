@@ -96,6 +96,37 @@ var miaecData = [
     "url": "articles/crawlspace-encapsulation-pacific-northwest.html"
   },
   {
+    "title": "Step-by-Step Pacific Northwest Crawlspace Encapsulation & Radon Sealing Protocol",
+    "subtitle": "A comprehensive contractor and DIY execution guide: raking dirt floors, 20-mil poly sealing, continuous stem wall EPS, and sub-membrane radon pipe installation.",
+    "format": "Tutorial",
+    "leadType": "Step-by-Step",
+    "category": "Water Barrier",
+    "catSlug": "water-barriers",
+    "cities": [
+      "Bellingham",
+      "Boise",
+      "Eugene",
+      "Olympia",
+      "Portland",
+      "Salem",
+      "Seattle",
+      "Spokane",
+      "Tacoma",
+      "Vancouver"
+    ],
+    "states": [
+      "AK",
+      "ID",
+      "MT",
+      "OR",
+      "WA"
+    ],
+    "summary": "How to encapsulate a Pacific Northwest crawlspace: Step-by-step instructions for grading soil, installing 20-mil poly with double-sided butyl tape, and sealing foundation vents.",
+    "codeTag": "IRC Section R408.3 / ASTM E1745 Class A / EPA Radon Zone 1",
+    "type": "Tutorial",
+    "url": "articles/crawlspace-encapsulation-steps.html"
+  },
+  {
     "title": "Ductless Mini-Splits vs. Electric Baseboards in the Pacific Northwest: Sizing, Defrost & Cost Analysis",
     "subtitle": "Why converting 1970s zonal electric resistance heat to multi-zone hyper-heating inverter heat pumps cuts heating bills by 60% while stabilizing Marine Zone 4C comfort.",
     "format": "Feature",
@@ -282,6 +313,37 @@ var miaecData = [
     "url": "articles/outboard-mineral-wool-vs-foam-rainscreens.html"
   },
   {
+    "title": "How to Install a Cascadia Rainscreen: Sizing Furring Strips, Bug Screens & Flashing Protocol",
+    "subtitle": "A practical jobsite carpentry guide to installing ventilated exterior rainscreens: Coroplast vs treated wood furring, bottom bug screen wraps, and window Z-flashing.",
+    "format": "Tutorial",
+    "leadType": "Step-by-Step",
+    "category": "Envelope",
+    "catSlug": "envelopes",
+    "cities": [
+      "Bellingham",
+      "Bend",
+      "Boise",
+      "Eugene",
+      "Olympia",
+      "Portland",
+      "Salem",
+      "Seattle",
+      "Spokane",
+      "Tacoma"
+    ],
+    "states": [
+      "AK",
+      "ID",
+      "MT",
+      "OR",
+      "WA"
+    ],
+    "summary": "How to install an exterior rainscreen cavity: Step-by-step instructions for fastening vertical furring strips, wrapping stainless bug screens, and integrating window flashing.",
+    "codeTag": "ASTM E2273 / IRC Section R703.1.1 / WSEC-R Section R402.4",
+    "type": "Tutorial",
+    "url": "articles/rainscreen-installation-furring-steps.html"
+  },
+  {
     "title": "Rainscreen Siding Gaps: Sizing the 3/8-Inch to 3/4-Inch Capillary Cavity in Marine Zone 4C",
     "subtitle": "Sizing the 3/8-inch to 3/4-inch capillary drainage gap behind fiber cement and cedar siding per ASTM E2273 and IRC R703.1.1, comparing Coroplast ventilated strips to treated wood battens.",
     "format": "Feature",
@@ -373,6 +435,33 @@ var miaecData = [
     "codeTag": "CEBC Appendix Chapter A3 / IRC Chapter 6 / FEMA P-1100 / Simpson Strong-Tie UFP10",
     "type": "Feature",
     "url": "articles/seismic-retrofit-cripple-wall-bolting.html"
+  },
+  {
+    "title": "Step-by-Step Cripple Wall Bracing & Mudsill Bolting: The Cascadia Seismic Retrofit Walkthrough",
+    "subtitle": "A step-by-step structural carpentry guide for homeowners and tradesmen: drilling mudsill anchors, mounting Simpson UFP10 side plates, and sheathing cripple walls.",
+    "format": "Tutorial",
+    "leadType": "Step-by-Step",
+    "category": "Urban Development",
+    "catSlug": "urban-development",
+    "cities": [
+      "Bellingham",
+      "Eugene",
+      "Olympia",
+      "Portland",
+      "Salem",
+      "Seattle",
+      "Tacoma",
+      "Vancouver"
+    ],
+    "states": [
+      "ID",
+      "OR",
+      "WA"
+    ],
+    "summary": "How to seismically retrofit a Pacific Northwest home: Step-by-step instructions for bolting unanchored mudsills with Simpson UFP10 plates, installing structural CDX plywood shear walls, and nailing A35 framing anchors.",
+    "codeTag": "FEMA P-1100 / CEBC Appendix Chapter A3 / IRC Chapter 6",
+    "type": "Tutorial",
+    "url": "articles/seismic-retrofit-cripple-wall-steps.html"
   },
   {
     "title": "Sliding Glass Door Draft Weatherization: 5 High-Impact Retrofit Options",

@@ -93,6 +93,8 @@ To complete the continuous load path, installers must mechanically lock the firs
 
 For homes where floor joists run perpendicular to the foundation wall, solid 2x dimensional blocking must be fitted snugly between the joists directly above the cripple wall plate. Framing anchors are then secured to both the blocking and the top plate, preventing the joists from rolling on their sides during seismic rocking. This structural tri-fold assembly ensures the house behaves as a unified, monolithic diaphragm during earthquake shaking.
 
+&rarr; **[Field Guide: Step-by-Step Cripple Wall Bracing & Mudsill Bolting Walkthrough](seismic-retrofit-cripple-wall-steps.html)**
+
 ---
 
 ## Verifiable Standards and Regional Seismic Codes

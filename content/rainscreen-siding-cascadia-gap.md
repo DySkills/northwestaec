@@ -93,6 +93,8 @@ In residential construction, mounting the window flange directly to the sheathin
 
 The rainscreen furring strips installed above the window must terminate 1/2-inch above this metal Z-flashing. This intentional gap ensures that water draining down the wall cavity above drops onto the metal flashing and is kicked outward past the window frame, rather than pooling behind the window head casing. Proper flashing sequencing guarantees that even if window trim joints fail, bulk water cannot enter the rough framing.
 
+&rarr; **[Field Guide: How to Install a Cascadia Rainscreen: Sizing Furring Strips & Bug Screens](rainscreen-installation-furring-steps.html)**
+
 ---
 
 ## Verifiable Standards and Regional Building Codes
