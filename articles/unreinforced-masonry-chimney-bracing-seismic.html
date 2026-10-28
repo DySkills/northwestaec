@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO Tags -->
+  <title>Unreinforced Masonry Chimney Bracing: Seismic Risk and Diagonal Steel Restraint | Northwest AEC</title>
+  <meta name="description" content="Structural engineering analysis of unreinforced masonry (URM) chimney failures during Pacific Northwest earthquakes, detailing roof-plane steel diagonal bracing and brick stabilization.">
+  <meta name="keywords" content="Urban Development, Northwest building science, Climate Zones 4C Marine & 5/6 Mountain, FEMA P-1100 Section 7 / ASCE 41-17 / City of Seattle Tip 323, residential construction, thermal boundary, energy efficiency">
+  <link rel="canonical" href="https://northwestaec.com/articles/unreinforced-masonry-chimney-bracing-seismic.html">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Northwest AEC Building Science">
+  <meta property="og:url" content="https://northwestaec.com/articles/unreinforced-masonry-chimney-bracing-seismic.html">
+  <meta property="og:title" content="Unreinforced Masonry Chimney Bracing: Seismic Risk and Diagonal Steel Restraint">
+  <meta property="og:description" content="Structural engineering analysis of unreinforced masonry (URM) chimney failures during Pacific Northwest earthquakes, detailing roof-plane steel diagonal bracing and brick stabilization.">
+  <meta property="article:published_time" content="2026-10-01T08:00:00Z">
+  <meta property="article:modified_time" content="2026-10-19T18:00:00Z">
+  <meta property="article:section" content="Urban Development">
+  <meta property="article:author" content="Northwest AEC Building Science">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="https://northwestaec.com/articles/unreinforced-masonry-chimney-bracing-seismic.html">
+  <meta name="twitter:title" content="Unreinforced Masonry Chimney Bracing: Seismic Risk and Diagonal Steel Restraint">
+  <meta name="twitter:description" content="Structural engineering analysis of unreinforced masonry (URM) chimney failures during Pacific Northwest earthquakes, detailing roof-plane steel diagonal bracing and brick stabilization.">
+
+  <!-- AEO / VEO JSON-LD Structured Data -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://northwestaec.com/index.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Urban Development",
+      "item": "https://northwestaec.com/browse.html?cat=urban-development"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Unreinforced Masonry Chimney Bracing: Seismic Risk and Diagonal Steel Restraint",
+      "item": "https://northwestaec.com/articles/unreinforced-masonry-chimney-bracing-seismic.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Unreinforced Masonry Chimney Bracing: Seismic Risk and Diagonal Steel Restraint",
+  "alternativeHeadline": "Preventing deadly seismic collapse of unreinforced brick chimneys in Seattle and Portland historic neighborhoods with diagonal steel tie-back bracing and stainless steel flue liners.",
+  "description": "Structural engineering analysis of unreinforced masonry (URM) chimney failures during Pacific Northwest earthquakes, detailing roof-plane steel diagonal bracing and brick stabilization.",
+  "inLanguage": "en-US",
+  "proficiencyLevel": "Expert",
+  "genre": "Report",
+  "keywords": "Urban Development, Building Science, Climate Zones 4C/5/6, Cascadia & Northwest Architecture, FEMA P-1100 Section 7 / ASCE 41-17 / City of Seattle Tip 323",
+  "author": {
+    "@type": "Organization",
+    "name": "Northwest AEC Building Science",
+    "url": "https://northwestaec.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Northwest Architecture, Engineering & Construction",
+    "url": "https://northwestaec.com"
+  },
+  "datePublished": "2026-10-01T08:00:00Z",
+  "dateModified": "2026-10-19T18:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://northwestaec.com/articles/unreinforced-masonry-chimney-bracing-seismic.html"
+  },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".quick-summary-text",
+      ".quick-summary-bullets"
+    ]
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Urban Development"
+    },
+    {
+      "@type": "Thing",
+      "name": "Building Science & Envelope Thermodynamics"
+    }
+  ]
+}
+  </script>
+
+  <!-- Typography & Styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['"Newsreader"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+          colors: {
+            navy: {
+              DEFAULT: '#161F83',
+              dark: '#0e1458',
+              deep: '#0a0e3f',
+              text: '#111863',
+              50: '#eef2ff',
+            },
+            steel: {
+              DEFAULT: '#3274AE',
+              dark: '#225582',
+              100: '#e8f2fa',
+              50: '#f4f8fc',
+              border: '#d0e1f0',
+            },
+            crimson: {
+              DEFAULT: '#C42927',
+              hover: '#a8211f',
+              light: '#fdf2f2',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-[#FBFBFC] text-slate-800 font-sans antialiased selection:bg-navy selection:text-white min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header class="border-b border-slate-200 bg-white/95 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <a href="../index.html" class="flex items-center gap-2 group">
+        <div class="w-8 h-8 rounded-lg bg-navy flex items-center justify-center font-bold text-white text-xs font-mono group-hover:bg-navy-dark transition">
+          <span>N</span><span class="text-crimson">W</span>
+        </div>
+        <span class="text-lg font-bold tracking-tight text-navy font-serif">Northwest<span class="text-steel">AEC</span><span class="text-[9px] font-sans text-slate-400 font-normal align-top ml-0.5">™</span></span>
+      </a>
+
+      <div class="flex items-center gap-4 text-xs font-mono uppercase">
+        <a href="../browse.html?cat=urban-development" class="text-steel hover:text-navy transition font-semibold">&larr; Urban Development</a>
+        <span class="text-slate-300">|</span>
+        <a href="../browse.html?cat=all" class="text-slate-500 hover:text-navy transition">All Guides</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Focused Single-Column Monograph -->
+  <main class="max-w-3xl mx-auto px-4 sm:px-6 py-12 flex-1 w-full" itemscope itemtype="https://schema.org/TechArticle">
+    <!-- Format Badge, Category & Metadata -->
+    <div class="flex flex-wrap items-center gap-2 text-xs font-mono text-slate-500 mb-4">
+      <span class="px-2.5 py-0.5 rounded-full bg-navy text-white font-bold tracking-wider uppercase text-[10px]">
+        REPORT &bull; ANALYSIS LEAD
+      </span>
+      <span class="px-2.5 py-0.5 rounded bg-steel-50 text-steel-dark border border-steel-border font-semibold">
+        Urban Development
+      </span>
+      <span>&bull;</span>
+      <span class="text-slate-600">States: WA, OR, ID, MT, AK</span>
+      <span>&bull;</span>
+      <span class="text-crimson font-medium">8 min read</span>
+    </div>
+
+    <!-- Article Title -->
+    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-navy font-serif tracking-tight leading-tight mb-3" itemprop="headline">
+      Unreinforced Masonry Chimney Bracing: Seismic Risk and Diagonal Steel Restraint
+    </h1>
+
+    
+    <!-- Description Subtitle -->
+    <p class="text-lg sm:text-xl text-slate-600 font-serif leading-relaxed mb-6 font-normal" itemprop="description">
+      Preventing deadly seismic collapse of unreinforced brick chimneys in Seattle and Portland historic neighborhoods with diagonal steel tie-back bracing and stainless steel flue liners.
+    </p>
+
+    <div class="flex items-center gap-3 text-xs font-mono text-slate-500 border-b border-slate-200 pb-6 mb-8">
+      <span>By <span itemprop="author">Northwest AEC Building Science</span></span>
+      <span>&bull;</span>
+      <span>Published <time datetime="2026-10-01">October 2026</time></span>
+      <span>&bull;</span>
+      <span class="text-steel font-bold">FEMA P-1100 Section 7 / ASCE 41-17 / City of Seattle Tip 323</span>
+    </div>
+
+    <!-- Article Content -->
+    <article class="prose max-w-none" itemprop="articleBody">
+      <section id="quick-summary" class="quick-summary-box my-8 p-6 sm:p-7 rounded-2xl bg-emerald-50/50 border-l-4 border-emerald-600 border border-emerald-200/60 shadow-sm">
+  <div class="text-xs font-mono font-bold uppercase tracking-wider text-emerald-800 mb-2">
+    Quick Summary
+  </div>
+  <p class="quick-summary-text text-slate-800 text-base sm:text-lg font-serif leading-relaxed my-2">In older residential neighborhoods across Seattle, Portland, and Tacoma, unreinforced masonry (URM) brick chimneys represent the single most dangerous life-safety hazard during seismic events. When the 2001 Nisqually earthquake struck Puget Sound, thousands of brick chimneys fractured at the roofline, toppling heavy masonry through bedroom ceilings, crushing parked vehicles, and collapsing onto pedestrian sidewalks. Unreinforced brick stacks lack internal steel rebar, relying solely on degraded lime mortar that fails under horizontal ground acceleration. Preserving and stabilizing an unreinforced chimney requires installing engineered diagonal structural steel tie-back braces secured to double roof rafters, retrofitting galvanized steel tension straps, or taking the chimney down to the roofline and converting it to a lightweight metal flue.</p>
+  <ul class="quick-summary-bullets mt-4 pt-4 border-t border-emerald-200/80 space-y-2.5 text-sm text-slate-700 font-sans">
+    <li class="flex items-start gap-2.5"><span class="w-4 h-4 rounded-full bg-crimson text-white flex items-center justify-center shrink-0 mt-0.5"><svg class="w-2.5 h-2.5 stroke-current stroke-2 fill-none" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></span><span><strong class="text-navy font-bold">The Cantilever Harmonic Hazard:</strong> A heavy brick chimney extending past the roof acts as an inverted pendulum; during ground shaking, the roof diaphragm and the masonry stack vibrate at different resonant frequencies.</span></li>
+    <li class="flex items-start gap-2.5"><span class="w-4 h-4 rounded-full bg-crimson text-white flex items-center justify-center shrink-0 mt-0.5"><svg class="w-2.5 h-2.5 stroke-current stroke-2 fill-none" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></span><span><strong class="text-navy font-bold">Roofline Shear Fracturing:</strong> The point where a chimney penetrates the roof deck experiences intense stress concentration, causing brittle mortar joints to snap and toppling the upper stack.</span></li>
+    <li class="flex items-start gap-2.5"><span class="w-4 h-4 rounded-full bg-crimson text-white flex items-center justify-center shrink-0 mt-0.5"><svg class="w-2.5 h-2.5 stroke-current stroke-2 fill-none" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></span><span><strong class="text-navy font-bold">Engineered Diagonal Steel Bracing:</strong> Heavy structural steel angles or tubular braces ($HSS 2\times 2\times 1/4$-inch) must be clamped around the chimney and anchored across multiple structural roof rafters.</span></li>
+    <li class="flex items-start gap-2.5"><span class="w-4 h-4 rounded-full bg-crimson text-white flex items-center justify-center shrink-0 mt-0.5"><svg class="w-2.5 h-2.5 stroke-current stroke-2 fill-none" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></span><span><strong class="text-navy font-bold">The Demolition and Metal Flue Alternative:</strong> When historic lime mortar has turned to dust, structural removal down to attic ceiling framing paired with a Class A stainless steel chimney pipe provides absolute seismic safety.</span></li>
+  </ul>
+</section>
+<hr class="my-8 border-slate-200" />
+<h2 class="text-2xl font-bold text-navy font-serif mt-10 mb-4 pt-4 border-t border-slate-100">Historical Masonry and the Nisqually Seismic Lesson</h2>
+<p class="text-slate-700 text-base leading-relaxed my-4">Between 1890 and 1950, masons constructed millions of residential brick chimneys across the Pacific Northwest using local clay bricks and soft lime-sand mortar. These chimneys were erected without internal vertical steel reinforcing bars or horizontal wire joint ties. The masonry structure stands purely by gravity, held together by the compressive deadweight of thousands of individual bricks.</p>
+<p class="text-slate-700 text-base leading-relaxed my-4">On February 28, 2001, the Magnitude 6.8 Nisqually earthquake struck Western Washington at a depth of 32 miles. Although the deep hypocenter mitigated surface destruction compared to shallow crustal faults, the shaking caused catastrophic failure across residential masonry. Over 20,000 unreinforced brick chimneys in Seattle, Tacoma, and Olympia collapsed or suffered severe structural cracking, causing tens of millions of dollars in residential property damage.</p>
+<p class="text-slate-700 text-base leading-relaxed my-4">Post-earthquake structural engineering surveys revealed a consistent, deadly pattern. Chimneys did not fail from the bottom up; rather, they snapped cleanly at the roofline where the masonry projected above the roof plane. Heavy masonry sections weighing between 1,000 and 4,000 pounds peeled away from the framing, smashing through wood-shingled roof decks and plunging directly into living rooms and children's bedrooms below.</p>
+<hr class="my-8 border-slate-200" />
+<h2 class="text-2xl font-bold text-navy font-serif mt-10 mb-4 pt-4 border-t border-slate-100">Structural Dynamics: The Inverted Pendulum Failure Mode</h2>
+<p class="text-slate-700 text-base leading-relaxed my-4">To understand why unreinforced brick chimneys are exceptionally vulnerable to seismic failure, structural engineers analyze the assembly as an <strong class="text-navy font-bold">unrestrained inverted pendulum</strong>. A residential chimney is a tall, slender cantilevered column characterized by high mass and low ductility. When earthquake shear waves strike the concrete foundation, lateral acceleration travels upward through the wood-framed house.</p>
+<p class="text-slate-700 text-base leading-relaxed my-4">The wood-framed structure of a residential home is flexible and ductile, absorbing seismic energy through natural elastic deformation and timber flexure. In sharp contrast, a fired-clay brick chimney is extremely rigid and brittle. As the house rocks from side to side during ground shaking, the roof diaphragm deflects along one harmonic frequency, while the freestanding masonry stack oscillates along a completely different frequency.</p>
+<p class="text-slate-700 text-base leading-relaxed my-4">At the exact plane where the flexible wood roof intersects the rigid masonry stack, these conflicting harmonic frequencies collide. The roof deck slams against the brickwork, generating extreme shear forces and bending moments. Because century-old lime mortar possesses virtually zero tensile strength (often less than 15 pounds per square inch), the mortar joints immediately fracture in tension, casting the upper brick stack loose into freefall.</p>
+<hr class="my-8 border-slate-200" />
+<h2 class="text-2xl font-bold text-navy font-serif mt-10 mb-4 pt-4 border-t border-slate-100">Chimney Seismic Retrofit Engineering Options</h2>
+<p class="text-slate-700 text-base leading-relaxed my-4">The table below contrasts standard unreinforced masonry chimneys against engineered seismic stabilization and modern lightweight conversion options. Structural metrics show how engineered bracing isolates heavy masonry masses from brittle roofline failures:</p>
+<div class="my-8 overflow-x-auto rounded-xl border border-slate-200 bg-white shadow-xs">
+<table class="w-full text-left border-collapse text-sm">
+<thead class="bg-slate-50 border-b border-slate-200 text-xs font-mono uppercase text-navy font-bold">
+<tr>
+  <th class="px-4 py-3">Engineering Parameter</th>
+  <th class="px-4 py-3">Unreinforced Historic Chimney (Pre-1950)</th>
+  <th class="px-4 py-3">Engineered Diagonal Steel Bracing</th>
+  <th class="px-4 py-3">Demolition to Roofline & Metal Flue</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-slate-100 font-sans">
+<tr class="hover:bg-slate-50/60 transition">
+  <td class="px-4 py-3 font-semibold text-slate-900"><strong class="text-navy font-bold">Tensile Reinforcing Elements</strong></td>
+  <td class="px-4 py-3 text-slate-600">None (Zero vertical or horizontal rebar)</td>
+  <td class="px-4 py-3 text-slate-600">External $HSS 2\times 2$ tubular steel tension struts</td>
+  <td class="px-4 py-3 text-slate-600">Removed; structural wood collar installed</td>
+</tr>
+<tr class="hover:bg-slate-50/60 transition">
+  <td class="px-4 py-3 font-semibold text-slate-900"><strong class="text-navy font-bold">Roof Connection Mechanism</strong></td>
+  <td class="px-4 py-3 text-slate-600">Thin metal flashing nailed into mortar</td>
+  <td class="px-4 py-3 text-slate-600">Galvanized steel clamping band + rafter brackets</td>
+  <td class="px-4 py-3 text-slate-600">Light timber framing tied directly to trusses</td>
+</tr>
+<tr class="hover:bg-slate-50/60 transition">
+  <td class="px-4 py-3 font-semibold text-slate-900"><strong class="text-navy font-bold">Seismic Lateral Load Resistance</strong></td>
+  <td class="px-4 py-3 text-slate-600">$< 100$ lbs lateral force before shear failure</td>
+  <td class="px-4 py-3 text-slate-600"><strong class="text-navy font-bold">Up to 2,500 lbs lateral shear resistance</strong></td>
+  <td class="px-4 py-3 text-slate-600">Complete elimination of masonry collapse mass</td>
+</tr>
+<tr class="hover:bg-slate-50/60 transition">
+  <td class="px-4 py-3 font-semibold text-slate-900"><strong class="text-navy font-bold">Failure Mode Under M9.0 Shaking</strong></td>
+  <td class="px-4 py-3 text-slate-600">Brittle shear snap at roofline; heavy collapse</td>
+  <td class="px-4 py-3 text-slate-600">Controlled elastic deflection into roof rafters</td>
+  <td class="px-4 py-3 text-slate-600">Zero falling hazard; ductile stainless steel flex</td>
+</tr>
+<tr class="hover:bg-slate-50/60 transition">
+  <td class="px-4 py-3 font-semibold text-slate-900"><strong class="text-navy font-bold">Impact on Attic Ceiling Plane</strong></td>
+  <td class="px-4 py-3 text-slate-600">Severe puncture hazard into bedrooms</td>
+  <td class="px-4 py-3 text-slate-600">Structural load distributed across multiple rafters</td>
+  <td class="px-4 py-3 text-slate-600">Zero impact; weight removed from structure</td>
+</tr>
+<tr class="hover:bg-slate-50/60 transition">
+  <td class="px-4 py-3 font-semibold text-slate-900"><strong class="text-navy font-bold">Historic Landmark Aesthetic</strong></td>
+  <td class="px-4 py-3 text-slate-600">Preserves 100% original exterior appearance</td>
+  <td class="px-4 py-3 text-slate-600">Visible steel diagonal rods on rear roof slope</td>
+  <td class="px-4 py-3 text-slate-600">Exterior appearance replicated via faux panel wrap</td>
+</tr>
+<tr class="hover:bg-slate-50/60 transition">
+  <td class="px-4 py-3 font-semibold text-slate-900"><strong class="text-navy font-bold">Typical Retrofit Investment</strong></td>
+  <td class="px-4 py-3 text-slate-600">Baseline risk ($0 capital investment)</td>
+  <td class="px-4 py-3 text-slate-600">$2,500 – $4,500 per chimney stack</td>
+  <td class="px-4 py-3 text-slate-600">$3,500 – $6,000 complete deconstruction/flue</td>
+</tr>
+</tbody></table></div>
+<hr class="my-8 border-slate-200" />
+<h2 class="text-2xl font-bold text-navy font-serif mt-10 mb-4 pt-4 border-t border-slate-100">Prescriptive Diagonal Steel Bracing Engineering</h2>
+<p class="text-slate-700 text-base leading-relaxed my-4">For homeowners seeking to preserve their authentic exterior brick chimney while eliminating catastrophic collapse risks, structural engineers specify <strong class="text-navy font-bold">engineered diagonal steel tie-back bracing</strong>. The system utilizes a four-piece clamping collar fabricated from heavy 1/4-inch galvanized steel angle iron wrapped tightly around the brick perimeter approximately two-thirds of the height above the roofline. Neoprene rubber gaskets isolate the steel band from the brick, preventing mortar abrasion.</p>
+<p class="text-slate-700 text-base leading-relaxed my-4">From this clamping collar, two diagonal structural steel braces—typically fabricated from 2-inch hollow structural section (HSS) square steel tubing or 1-inch solid round steel rods—extend downward at a 45-degree angle to the roof deck. These braces must not be screwed into the thin plywood roof sheathing alone. They must anchor directly through the roof plane into double-sister rafter assemblies engineered to transfer dynamic tension and compression loads into the building's structural diaphragms.</p>
+<p class="text-slate-700 text-base leading-relaxed my-4">Inside the unconditioned attic, horizontal solid 2x6 timber blocking must be installed between rafters directly beneath the brace penetration points. Technicians fasten heavy-duty steel tie plates and through-bolts with oversized structural plate washers to sandwich the roof assembly. This robust mechanical connection transfers dynamic earthquake loads across a minimum of four to six adjacent roof rafters, preventing local framing failure.</p>
+<p class="text-slate-700 text-base leading-relaxed my-4">&rarr; <strong class="text-navy font-bold"><a href="seismic-retrofit-cripple-wall-bolting.html" class="text-crimson font-medium underline hover:text-crimson-hover">Deep Dive Specification: Seismic Retrofit Cripple Wall Bracing & Foundation Bolting</a></strong></p>
+<hr class="my-8 border-slate-200" />
+<h2 class="text-2xl font-bold text-navy font-serif mt-10 mb-4 pt-4 border-t border-slate-100">When to Remove: The Mortar Degradation Threshold</h2>
+<p class="text-slate-700 text-base leading-relaxed my-4">While diagonal steel bracing provides structural stabilization for sound masonry, it cannot save a chimney whose mortar has turned to loose sand. In the damp Pacific Northwest climate, continuous rainwater penetration combined with freeze-thaw cycling steadily leaches calcium hydroxide out of soft lime mortar. Masons evaluate this condition using a standardized screwdriver scratch test.</p>
+<p class="text-slate-700 text-base leading-relaxed my-4">If a technician can push a flathead screwdriver more than 1/2-inch into the mortar joints with moderate hand pressure, the masonry lacks the compressive cohesion necessary for structural bracing. Attaching steel clamps to a rotting chimney will merely cause the collar to crush through the crumbly brickwork during seismic ground shaking. In these advanced decay conditions, structural engineers strongly recommend <strong class="text-navy font-bold">demolition down to the roofline</strong>.</p>
+<p class="text-slate-700 text-base leading-relaxed my-4">Crews carefully dismantle the bricks down to the ceiling joist plane inside the attic, cap the remaining brick stack with structural concrete, and install an insulated Class A double-wall stainless steel chimney flue. The resulting penetration through the roof is re-framed with conventional wood rafters and waterproofed with modern roofing underlayments. For historic preservation districts, lightweight thin-brick veneer panels can be applied around an engineered wood chase to replicate original historic brickwork perfectly.</p>
+<hr class="my-8 border-slate-200" />
+<h2 class="text-2xl font-bold text-navy font-serif mt-10 mb-4 pt-4 border-t border-slate-100">Verifiable Standards and Regional Building Guidelines</h2>
+<div class="flex items-start gap-3 my-3 text-slate-700 text-base leading-relaxed pl-1"><span class="w-6 h-6 rounded-full bg-navy/10 text-navy font-mono font-bold text-xs flex items-center justify-center shrink-0 mt-0.5">1</span><div><strong class="text-navy font-bold">City of Seattle Department of Construction and Inspections (SDCI):</strong></div></div>
+<ul class="list-disc pl-6 space-y-2 text-slate-700 my-4">
+  <li><em class="italic text-slate-800">Client Assistance Memo (CAM 323):</em> Retrofitting Unreinforced Masonry Chimneys.</li>
+  <li>Prescriptive steel collar and rafter attachment details for single-family residences.</li>
+</ul>
+<div class="flex items-start gap-3 my-3 text-slate-700 text-base leading-relaxed pl-1"><span class="w-6 h-6 rounded-full bg-navy/10 text-navy font-mono font-bold text-xs flex items-center justify-center shrink-0 mt-0.5">2</span><div><strong class="text-navy font-bold">City of Portland Bureau of Development Services (BDS):</strong></div></div>
+<ul class="list-disc pl-6 space-y-2 text-slate-700 my-4">
+  <li><em class="italic text-slate-800">Brochure 8:</em> Residential Seismic Retrofitting for Chimneys and Foundations.</li>
+  <li>Guidelines on chimney height-to-width aspect ratios and diagonal brace sizing.</li>
+</ul>
+<div class="flex items-start gap-3 my-3 text-slate-700 text-base leading-relaxed pl-1"><span class="w-6 h-6 rounded-full bg-navy/10 text-navy font-mono font-bold text-xs flex items-center justify-center shrink-0 mt-0.5">3</span><div><strong class="text-navy font-bold">American Society of Civil Engineers (ASCE):</strong></div></div>
+<ul class="list-disc pl-6 space-y-2 text-slate-700 my-4">
+  <li><em class="italic text-slate-800">ASCE 41-17:</em> Seismic Evaluation and Retrofit of Existing Buildings (Chapter 13 nonstructural component anchorage).</li>
+  <li><em class="italic text-slate-800">FEMA P-1100 Section 7:</em> Prescriptive Vulnerability-Based Masonry Chimney Mitigation Protocols.</li>
+</ul>
+<hr class="my-8 border-slate-200" />
+<h2 class="text-2xl font-bold text-navy font-serif mt-10 mb-4 pt-4 border-t border-slate-100">Related Building Science Specifications</h2>
+<ul class="list-disc pl-6 space-y-2 text-slate-700 my-4">
+  <li><strong class="text-navy font-bold">Foundation Seismic Bolting:</strong> &rarr; <strong class="text-navy font-bold"><a href="seismic-retrofit-cripple-wall-bolting.html" class="text-crimson font-medium underline hover:text-crimson-hover">Read: Seismic Retrofitting: Bolting Mudsills and Bracing Cripple Walls</a></strong></li>
+  <li><strong class="text-navy font-bold">Attic Moisture Control:</strong> &rarr; <strong class="text-navy font-bold"><a href="unvented-attic-condensation-marine-zone-4c.html" class="text-crimson font-medium underline hover:text-crimson-hover">Read: Unvented Attic Condensation and Dew Point Management in Marine Zone 4C</a></strong></li>
+  <li><strong class="text-navy font-bold">Historic Craftsman Eaves:</strong> &rarr; <strong class="text-navy font-bold"><a href="air-sealing-exposed-craftsman-rafter-tails.html" class="text-crimson font-medium underline hover:text-crimson-hover">Read: Air-Sealing Exposed Craftsman Rafter Tails in Historic Pacific Northwest Bungalows</a></strong></li>
+  <li><strong class="text-navy font-bold">Timber Structural Repair:</strong> &rarr; <strong class="text-navy font-bold"><a href="timber-framing-moisture-rot-restoration.html" class="text-crimson font-medium underline hover:text-crimson-hover">Read: Timber Framing Moisture Rot Restoration and Epoxy Consolidation</a></strong></li>
+</ul>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why do brick chimneys collapse during Pacific Northwest earthquakes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chimneys built prior to 1950 were constructed from unreinforced masonry without internal steel rebar. During an earthquake, the flexible wood frame of the house and the heavy, brittle brick chimney vibrate at different speeds, creating massive stress where they meet at the roofline that snaps the mortar joints and causes the chimney to topple."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does diagonal steel bracing protect a chimney from falling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Engineered steel bracing clamps a heavy galvanized steel band around the upper brick stack and connects it to diagonal steel struts bolted through the roof into structural double rafters. This transfers dynamic seismic forces away from brittle mortar joints and distributes the load safely across the house's roof framing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can all brick chimneys be saved with steel bracing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. If decades of Pacific Northwest rain and freeze-thaw cycles have eroded the mortar so that it scratches away easily with a screwdriver, the chimney lacks structural cohesion. In such cases, steel bracing will merely crush the bricks, and the only safe solution is to dismantle the chimney down to the roofline."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the safest alternative to an unreinforced brick chimney?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The safest and most permanent solution is removing the brick chimney down below the roof deck and installing a modern, lightweight Class A double-wall stainless steel flue. This completely eliminates thousands of pounds of falling masonry hazard while maintaining fireplace or stove operation."
+      }
+    }
+  ]
+}
+</script>
+
+    </article>
+
+    <!-- Contractor Referral / Lead-Gen Hook -->
+    
+    <!-- Natural Dual CTA 2: Contractor Matching Hook -->
+    <div class="mt-14 p-8 rounded-2xl bg-white border-2 border-steel-border shadow-sm">
+      <div class="flex items-center justify-between gap-2 mb-2">
+        <span class="text-xs font-mono uppercase tracking-widest text-crimson font-bold">Vetted Contractor Network</span>
+        <span class="text-[10px] font-mono text-slate-400">Northwest Region</span>
+      </div>
+      <h3 class="text-2xl font-bold text-navy font-serif">
+        Need Vetted Local Specialists in Your Area?
+      </h3>
+      <p class="text-slate-600 text-sm mt-2 font-sans leading-relaxed">
+        Connect with licensed, building-science trained contractors serving Seattle, Portland, Tacoma, Spokane, Bellingham.... Free estimates with zero obligation.
+      </p>
+
+      <div class="mt-6 flex flex-wrap items-center gap-3">
+        <a href="../browse.html?cat=urban-development" class="px-5 py-2.5 rounded-xl bg-crimson hover:bg-crimson-hover text-white text-xs font-mono font-semibold transition shadow-sm">
+          Get Local Contractor Quotes &rarr;
+        </a>
+        <a href="../browse.html?cat=all" class="px-5 py-2.5 rounded-xl bg-slate-50 hover:bg-slate-100 border border-slate-200 text-slate-700 text-xs font-mono font-medium transition">
+          Browse More Specifications
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-200 bg-white py-8 text-xs text-slate-500 font-mono mt-12">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-3 flex-wrap">
+        <a href="../about.html" class="hover:text-navy">About</a>
+        <span>&bull;</span>
+        <a href="../privacy.html" class="hover:text-navy">Privacy Policy</a>
+        <span>&bull;</span>
+        <a href="../terms.html" class="hover:text-navy">Terms of Service</a>
+        <span>&bull;</span>
+        <a href="../disclosure.html" class="hover:text-navy">Affiliate Disclosure</a>
+      </div>
+      <div>&copy; 2026 Northwest AEC™ &bull; Independent Building Science Publication. All rights reserved.</div>
+    </div>
+  </footer>
+  <script>
+    function switchSlide(carouselId, index) {
+      const container = document.querySelector('[data-carousel="' + carouselId + '"]');
+      if (!container) return;
+      const tabs = container.querySelectorAll('.carousel-tab');
+      const slides = container.querySelectorAll('.carousel-slide');
+      tabs.forEach((tab, i) => {
+        if (i === index) {
+          tab.className = 'carousel-tab px-3 py-1 rounded-full text-xs font-mono font-semibold transition bg-navy text-white shadow-xs';
+        } else {
+          tab.className = 'carousel-tab px-3 py-1 rounded-full text-xs font-mono font-medium transition text-slate-600 hover:text-navy hover:bg-slate-200/60';
+        }
+      });
+      slides.forEach((slide, i) => {
+        if (i === index) {
+          slide.classList.remove('hidden');
+          slide.classList.add('block');
+        } else {
+          slide.classList.add('hidden');
+          slide.classList.remove('block');
+        }
+      });
+    }
+  </script>
+</body>
+</html>

@@ -43,7 +43,7 @@ function renderContractorCTA(frontmatter, citiesStr) {
     <div class="mt-14 p-6 sm:p-8 rounded-2xl bg-white border-2 border-steel-border shadow-sm">
       <div class="flex items-center justify-between gap-2 mb-2">
         <span class="text-xs font-mono uppercase tracking-widest text-crimson font-bold">Vetted Local Estimates</span>
-        <span class="text-[10px] font-mono text-slate-400">Midwest Region (Climate Zones 4C Marine & 5/6 Mountain)</span>
+        <span class="text-[10px] font-mono text-slate-400">Northwest Region (Climate Zones 4C Marine & 5/6 Mountain)</span>
       </div>
       <h3 class="text-2xl font-bold text-navy font-serif">
         Compare Free Local Quotes in Your Area
@@ -63,7 +63,7 @@ function renderContractorCTA(frontmatter, citiesStr) {
     <div class="mt-14 p-8 rounded-2xl bg-white border-2 border-steel-border shadow-sm">
       <div class="flex items-center justify-between gap-2 mb-2">
         <span class="text-xs font-mono uppercase tracking-widest text-crimson font-bold">Vetted Contractor Network</span>
-        <span class="text-[10px] font-mono text-slate-400">Midwest Region</span>
+        <span class="text-[10px] font-mono text-slate-400">Northwest Region</span>
       </div>
       <h3 class="text-2xl font-bold text-navy font-serif">
         Need Vetted Local Specialists in Your Area?
@@ -428,6 +428,17 @@ function markdownToHtml(md) {
       continue;
     }
 
+    // Raw script / JSON-LD passthrough
+    if (line.startsWith('<script')) {
+      let scriptBlock = [line];
+      while (i + 1 < lines.length && !lines[i].includes('</script>')) {
+        i++;
+        scriptBlock.push(lines[i]);
+      }
+      html += scriptBlock.join('\n') + '\n';
+      continue;
+    }
+
     // Empty lines
     if (line === '') {
       continue;
@@ -459,8 +470,8 @@ function formatInline(str) {
 // Generate complete HTML page with Enterprise-Grade SEO, AEO, and VEO Architecture
 function buildArticleHtml(frontmatter, htmlBody, bodyMd) {
   const slug = frontmatter.slug || 'article';
-  const citiesStr = Array.isArray(frontmatter.cities) ? frontmatter.cities.slice(0, 5).join(', ') + '...' : frontmatter.cities || 'Midwest';
-  const statesStr = Array.isArray(frontmatter.states) ? frontmatter.states.join(', ') : frontmatter.states || 'All Midwest';
+  const citiesStr = Array.isArray(frontmatter.cities) ? frontmatter.cities.slice(0, 5).join(', ') + '...' : frontmatter.cities || 'Pacific Northwest';
+  const statesStr = Array.isArray(frontmatter.states) ? frontmatter.states.join(', ') : frontmatter.states || 'All Northwest';
   const formatBadge = frontmatter.format ? frontmatter.format.toUpperCase() : 'FEATURE';
   const leadTag = frontmatter.leadType ? ` &bull; ${frontmatter.leadType.toUpperCase()} LEAD` : '';
 
@@ -529,7 +540,7 @@ function buildArticleHtml(frontmatter, htmlBody, bodyMd) {
       "inLanguage": "en-US",
       "proficiencyLevel": "Expert",
       "genre": frontmatter.format || "Building Science Analysis",
-      "keywords": `${frontmatter.category}, Building Science, Climate Zone 5, Midwest Architecture, ${frontmatter.codeTag || ''}`,
+      "keywords": `${frontmatter.category}, Building Science, Climate Zones 4C/5/6, Cascadia & Northwest Architecture, ${frontmatter.codeTag || ''}`,
       "author": {
         "@type": "Organization",
         "name": frontmatter.author || "Northwest AEC Building Science",
@@ -537,7 +548,7 @@ function buildArticleHtml(frontmatter, htmlBody, bodyMd) {
       },
       "publisher": {
         "@type": "Organization",
-        "name": "Midwest Architecture, Engineering & Construction",
+        "name": "Northwest Architecture, Engineering & Construction",
         "url": siteUrl
       },
       "datePublished": "2026-10-01T08:00:00Z",
@@ -596,7 +607,7 @@ function buildArticleHtml(frontmatter, htmlBody, bodyMd) {
   <!-- Primary SEO Tags -->
   <title>${frontmatter.title} | Northwest AEC</title>
   <meta name="description" content="${cleanSummary}">
-  <meta name="keywords" content="${frontmatter.category}, Midwest building science, Climate Zone 5, ${frontmatter.codeTag || ''}, residential construction, thermal boundary, energy efficiency">
+  <meta name="keywords" content="${frontmatter.category}, Northwest building science, Climate Zones 4C Marine & 5/6 Mountain, ${frontmatter.codeTag || ''}, residential construction, thermal boundary, energy efficiency">
   <link rel="canonical" href="${canonicalUrl}">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
@@ -803,8 +814,8 @@ function build() {
       leadType: frontmatter.leadType || '',
       category: frontmatter.category,
       catSlug: frontmatter.catSlug,
-      cities: frontmatter.cities || ["All Midwest"],
-      states: frontmatter.states || ["All Midwest"],
+      cities: frontmatter.cities || ["All Northwest"],
+      states: frontmatter.states || ["All Northwest"],
       summary: frontmatter.summary || '',
       codeTag: frontmatter.codeTag || "Building Science Spec",
       type: frontmatter.format || "Article",
@@ -823,6 +834,7 @@ function build() {
 // Do not edit manually; edit files in content/*.md and run 'node build.js'
 
 var miaecData = ${JSON.stringify(databaseRecords, null, 2)};
+var nwaecData = miaecData;
 `;
 
   fs.writeFileSync(dataJsPath, dataJsContent, 'utf8');
@@ -837,6 +849,37 @@ var miaecData = ${JSON.stringify(databaseRecords, null, 2)};
 
   fs.writeFileSync(sitemapPath, xml, 'utf8');
   console.log(`✓ Generated sitemap.xml with ${sitemapUrls.length} URLs!`);
+
+  // Write rss.xml (RSS 2.0 Syndication Feed)
+  const rssPath = path.join(__dirname, 'rss.xml');
+  const nowRfc = new Date().toUTCString();
+  let rssXml = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NorthwestAEC™ — Building Science &amp; Envelope Specifications</title>
+    <link>https://northwestaec.com</link>
+    <description>Independent building science publication analyzing residential envelope moisture performance, rainscreen ventilation, seismic mudsill bracing, and cold-climate heat pumps across the Pacific Northwest.</description>
+    <language>en-us</language>
+    <lastBuildDate>${nowRfc}</lastBuildDate>
+    <atom:link href="https://northwestaec.com/rss.xml" rel="self" type="application/rss+xml" />
+`;
+
+  databaseRecords.forEach(r => {
+    const cleanTitle = (r.title || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    const cleanDesc = (r.summary || r.subtitle || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    const itemUrl = `https://northwestaec.com/${r.url}`;
+    rssXml += `    <item>
+      <title>${cleanTitle}</title>
+      <link>${itemUrl}</link>
+      <guid isPermaLink="true">${itemUrl}</guid>
+      <description>${cleanDesc}</description>
+      <category>${(r.category || 'Building Science').replace(/&/g, '&amp;')}</category>
+    </item>\n`;
+  });
+
+  rssXml += `  </channel>\n</rss>\n`;
+  fs.writeFileSync(rssPath, rssXml, 'utf8');
+  console.log(`✓ Generated rss.xml with ${databaseRecords.length} specifications!`);
 }
 
 build();

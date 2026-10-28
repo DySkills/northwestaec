@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NorthwestAEC™ — Building Science &amp; Envelope Specifications</title>
+    <link>https://northwestaec.com</link>
+    <description>Independent building science publication analyzing residential envelope moisture performance, rainscreen ventilation, seismic mudsill bracing, and cold-climate heat pumps across the Pacific Northwest.</description>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Oct 2026 03:36:41 GMT</lastBuildDate>
+    <atom:link href="https://northwestaec.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Air-Sealing Exposed Craftsman Rafter Tails in Historic Pacific Northwest Bungalows</title>
+      <link>https://northwestaec.com/articles/air-sealing-exposed-craftsman-rafter-tails.html</link>
+      <guid isPermaLink="true">https://northwestaec.com/articles/air-sealing-exposed-craftsman-rafter-tails.html</guid>
+      <description>Step-by-step building science tutorial for air-sealing and insulating open rafter tails and frieze blocks on 1900–1930s Pacific Northwest Craftsman homes.</description>
+      <category>Air Barriers</category>
+    </item>
+    <item>
+      <title>Cross-Laminated Timber Exterior Envelope Weatherproofing: Vapor-Permeable WRBs &amp; Mineral Wool</title>
+      <link>https://northwestaec.com/articles/clt-mass-timber-exterior-envelope-wrb.html</link>
+      <guid isPermaLink="true">https://northwestaec.com/articles/clt-mass-timber-exterior-envelope-wrb.html</guid>
+      <description>Hygrothermal engineering report detailing moisture protection for Cross-Laminated Timber (CLT) walls in Pacific Northwest Marine Zone 4C under ASTM E2178.</description>
+      <category>Envelopes</category>
+    </item>
+    <item>
+      <title>Crawlspace Encapsulation in the Pacific Northwest: Saturated Soils, Radon &amp; Inversion Physics</title>
+      <link>https://northwestaec.com/articles/crawlspace-encapsulation-pacific-northwest.html</link>
+      <guid isPermaLink="true">https://northwestaec.com/articles/crawlspace-encapsulation-pacific-northwest.html</guid>
+      <description>Technical engineering specification for closed conditioned crawlspace encapsulation under IRC R408.3 across high-precipitation Pacific Northwest maritime soils.</description>
+      <category>Water Barriers</category>
+    </item>
+    <item>
+      <title>Ductless Mini-Splits vs. Electric Baseboards in the Pacific Northwest: Sizing, Defrost &amp; Cost Analysis</title>
+      <link>https://northwestaec.com/articles/ductless-mini-splits-vs-electric-baseboards.html</link>
+      <guid isPermaLink="true">https://northwestaec.com/articles/ductless-mini-splits-vs-electric-baseboards.html</guid>
+      <description>Replacing Pacific Northwest electric baseboard heating with ductless mini-split heat pumps reduces electrical consumption by 50% to 60% through variable-capacity inverter compressors and automated demand-defrost logic.</description>
+      <category>HVAC</category>
+    </item>
+    <item>
+      <title>Frost-Free Sillcock Installation: Pitch Angles &amp; Anti-Siphon Freeze Defense</title>
+      <link>https://northwestaec.com/articles/frost-free-sillcock-installation-freeze-burst.html</link>
+      <guid isPermaLink="true">https://northwestaec.com/articles/frost-free-sillcock-installation-freeze-burst.html</guid>
+      <description>Step-by-step engineering tutorial for installing and pitching frost-free outdoor hose bibbs to prevent catastrophic freeze bursts in Pacific Northwest winter cold snaps.</description>
+      <category>Water Barriers</category>
+    </item>
+    <item>
+      <title>Heat Pump Defrost Cycles and Marine Climate Coil Icing: The Physics of 38°F Maritime Fog</title>
+      <link>https://northwestaec.com/articles/heat-pump-defrost-marine-climate-icing.html</link>
+      <guid isPermaLink="true">https://northwestaec.com/articles/heat-pump-defrost-marine-climate-icing.html</guid>
+      <description>Thermodynamic breakdown of air-source heat pump coil icing in Marine Zone 4C high-humidity winter air, contrasting timed vs. demand defrost logic and pan heaters.</description>
+      <category>HVAC</category>
+    </item>
+    <item>
+      <title>Hillside French Drains and Retaining Wall Hydrostatic Pressure Relief in Cascadia Soils</title>
+      <link>https://northwestaec.com/articles/hillside-french-drain-hydrostatic-retaining-walls.html</link>
+      <guid isPermaLink="true">https://northwestaec.com/articles/hillside-french-drain-hydrostatic-retaining-walls.html</guid>
+      <description>Engineering teardown of hillside drainage systems, dimple-core geocomposite drainage boards, washed gravel relief bays, and gravity daylight exits in Marine Zone 4C.</description>
+      <category>Water Barriers</category>
+    </item>
+    <item>
+      <title>Mountain Snow Load Roof Truss Engineering: 60 to 120 PSF Glulam &amp; Cold-Roof Sizing</title>
+      <link>https://northwestaec.com/articles/mountain-snow-load-roof-truss-engineering.html</link>
+      <guid isPermaLink="true">https://northwestaec.com/articles/mountain-snow-load-roof-truss-engineering.html</guid>
+      <description>Structural engineering specification for residential roof trusses, timber purlins, and ventilated cold-roof assemblies under 60–120 PSF snow loads in Climate Zones 5/6.</description>
+      <category>Rural Development</category>
+    </item>
+    <item>
+      <title>Outboard Mineral Wool vs. Foam Rainscreens: Vapor Permeance &amp; Wildfire Defense in Wet Climates</title>
+      <link>https://northwestaec.com/articles/outboard-mineral-wool-vs-foam-rainscreens.html</link>
+      <guid isPermaLink="true">https://northwestaec.com/articles/outboard-mineral-wool-vs-foam-rainscreens.html</guid>
+      <description>Comparative building science report analyzing continuous exterior insulation materials for Pacific Northwest envelopes, contrasting stone wool vs rigid foam.</description>
+      <category>Go Green</category>
+    </item>
+    <item>
+      <title>Rainscreen Siding Gaps: Sizing the 3/8-Inch to 3/4-Inch Capillary Cavity in Marine Zone 4C</title>
+      <link>https://northwestaec.com/articles/rainscreen-siding-cascadia-gap.html</link>
+      <guid isPermaLink="true">https://northwestaec.com/articles/rainscreen-siding-cascadia-gap.html</guid>
+      <description>Comparative building science specification for sizing ventilated rainscreen drainage cavities in high-precipitation Pacific Northwest climate zones under ASTM E2273.</description>
+      <category>Envelopes</category>
+    </item>
+    <item>
+      <title>Roof Moss Mitigation: Installing Zinc and Copper Strips Without Damaging Shingles</title>
+      <link>https://northwestaec.com/articles/roof-moss-mitigation-zinc-copper-strips.html</link>
+      <guid isPermaLink="true">https://northwestaec.com/articles/roof-moss-mitigation-zinc-copper-strips.html</guid>
+      <description>Step-by-step engineering tutorial for safely mitigating roof moss using continuous metallic zinc strips, oxygen bleach, and low-pressure sprayers.</description>
+      <category>Roofing</category>
+    </item>
+    <item>
+      <title>Seismic Retrofit Cripple Wall Bracing &amp; Foundation Bolting: Cascadia Subduction Defense</title>
+      <link>https://northwestaec.com/articles/seismic-retrofit-cripple-wall-bolting.html</link>
+      <guid isPermaLink="true">https://northwestaec.com/articles/seismic-retrofit-cripple-wall-bolting.html</guid>
+      <description>Structural engineering specification for prescriptive seismic retrofitting under CEBC Appendix A3, detailing mudsill anchor bolting, cripple wall plywood sheathing, and shear transfer paths.</description>
+      <category>Urban Development</category>
+    </item>
+    <item>
+      <title>Sliding Glass Door Draft Weatherization: 5 High-Impact Retrofit Options</title>
+      <link>https://northwestaec.com/articles/sliding-glass-door-draft-weatherization-options.html</link>
+      <guid isPermaLink="true">https://northwestaec.com/articles/sliding-glass-door-draft-weatherization-options.html</guid>
+      <description>Technical listicle evaluating 5 engineered weatherization retrofits for drafty sliding glass patio doors in wet, windy Pacific Northwest coastal zones.</description>
+      <category>Efficient Systems</category>
+    </item>
+    <item>
+      <title>Standing Seam Metal Roofing in Cascadia Rain: Moss Resistance, Concealed Clips &amp; Underlayments</title>
+      <link>https://northwestaec.com/articles/standing-seam-metal-roofing-cascadia-rain.html</link>
+      <guid isPermaLink="true">https://northwestaec.com/articles/standing-seam-metal-roofing-cascadia-rain.html</guid>
+      <description>Comparative engineering analysis of standing seam metal roofs vs architectural asphalt shingles in wet Pacific Northwest forest canopies under high-precipitation loads.</description>
+      <category>Roofing</category>
+    </item>
+    <item>
+      <title>Triple-Pane vs. Double-Pane Windows in the Pacific Northwest: U-Factor 0.22 Marine Codes</title>
+      <link>https://northwestaec.com/articles/triple-pane-vs-double-pane-windows-marine-codes.html</link>
+      <guid isPermaLink="true">https://northwestaec.com/articles/triple-pane-vs-double-pane-windows-marine-codes.html</guid>
+      <description>Comparative thermodynamic analysis of triple-pane vs double-pane windows under Washington and Oregon energy codes, warm-edge composite spacers, and condensation resistance.</description>
+      <category>Efficient Systems</category>
+    </item>
+    <item>
+      <title>Unreinforced Masonry Chimney Bracing: Seismic Risk and Diagonal Steel Restraint</title>
+      <link>https://northwestaec.com/articles/unreinforced-masonry-chimney-bracing-seismic.html</link>
+      <guid isPermaLink="true">https://northwestaec.com/articles/unreinforced-masonry-chimney-bracing-seismic.html</guid>
+      <description>Structural engineering analysis of unreinforced masonry (URM) chimney failures during Pacific Northwest earthquakes, detailing roof-plane steel diagonal bracing and brick stabilization.</description>
+      <category>Urban Development</category>
+    </item>
+    <item>
+      <title>Unvented Attic Condensation in Marine Zone 4C: Cold-Roof Rot &amp; Air Sealing Physics</title>
+      <link>https://northwestaec.com/articles/unvented-attic-condensation-marine-zone-4c.html</link>
+      <guid isPermaLink="true">https://northwestaec.com/articles/unvented-attic-condensation-marine-zone-4c.html</guid>
+      <description>Hygrothermal analysis of winter attic moisture condensation on cold roof sheathing in Pacific Northwest Marine Zone 4C, contrasting air sealing vs unvented spray foam roofs under IRC R806.5.</description>
+      <category>Air Barriers</category>
+    </item>
+    <item>
+      <title>Washington Clean Buildings Act &amp; Residential Electrification: Compliance &amp; Rebate Stacking</title>
+      <link>https://northwestaec.com/articles/washington-clean-buildings-act-residential-electrification.html</link>
+      <guid isPermaLink="true">https://northwestaec.com/articles/washington-clean-buildings-act-residential-electrification.html</guid>
+      <description>Strategic policy and engineering guide to Washington Clean Buildings standards, building decarbonization, utility heat pump rebates, and federal tax credits.</description>
+      <category>Go Green</category>
+    </item>
+    <item>
+      <title>Winterizing Off-Grid Cabin Water Lines: Gravity Drain Manifolds &amp; Air Blowout Protocols</title>
+      <link>https://northwestaec.com/articles/winterizing-off-grid-cabin-water-lines-gravity-drain.html</link>
+      <guid isPermaLink="true">https://northwestaec.com/articles/winterizing-off-grid-cabin-water-lines-gravity-drain.html</guid>
+      <description>Step-by-step engineering tutorial for completely draining and winterizing residential domestic water lines in sub-zero Pacific Northwest mountain cabins.</description>
+      <category>Rural Development</category>
+    </item>
+    <item>
+      <title>Wildland-Urban Interface (WUI) Wildfire Hardening: Ember-Resistant Eave Vents &amp; Defensible Perimeters</title>
+      <link>https://northwestaec.com/articles/wui-wildfire-hardening-ember-resistant-eave-vents.html</link>
+      <guid isPermaLink="true">https://northwestaec.com/articles/wui-wildfire-hardening-ember-resistant-eave-vents.html</guid>
+      <description>Comprehensive engineering guide to residential wildfire hardening in the Pacific Northwest WUI under ASTM E2886 and IWUIC Chapter 5.</description>
+      <category>Envelopes</category>
+    </item>
+  </channel>
+</rss>
